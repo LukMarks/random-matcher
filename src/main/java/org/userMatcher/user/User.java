@@ -1,12 +1,12 @@
-package users;
+package org.userMatcher.user;
 
 public class User {
-    public str name;
-    public str email;
-    public str restrains;
+    public String name;
+    public String email;
+    public String restrains;
     public User match;
 
-    public User(str userName, str userEmail, str restrains){
+    public User(String userName, String userEmail, String restrains){
         this.name = userName;
         this.email = userEmail;
         this.restrains = restrains;
@@ -20,14 +20,14 @@ public class User {
         return this.match;
     }
 
-    public str getName(){
+    public String getName(){
         return this.name;
     }
-    public str getEmail(){
+    public String getEmail(){
         return this.email;
     }
 
-    public str getRestrains(){
+    public String getRestrains(){
         return this.restrains;
     }
 }
